@@ -7,13 +7,11 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="http://thirdweb.com/">thirdweb</a>!
+        <a>  Welcome to ArbiFlip!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by configuring your desired network in{" "}
-          <code className={styles.code}>pages/_app.tsx</code>, then modify the{" "}
-          <code className={styles.code}>pages/index.tsx</code> file!
+         
         </p>
 
         <div className={styles.connect}>
@@ -21,29 +19,27 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-          <a href="https://portal.thirdweb.com/" className={styles.card}>
+          <a href="https://portal.arbitrum.io/" className={styles.card}>
             <h2>Portal &rarr;</h2>
             <p>
-              Guides, references and resources that will help you build with
-              thirdweb.
+              Arbitrum One Portal
             </p>
           </a>
 
-          <a href="https://thirdweb.com/dashboard" className={styles.card}>
-            <h2>Dashboard &rarr;</h2>
+          <a href="https://chain.link/vrf" className={styles.card}>
+            <h2>Play &rarr;</h2>
             <p>
-              Deploy, configure and manage your smart contracts from the
-              dashboard.
+             Start flipping and winning!
             </p>
           </a>
 
           <a
-            href="https://portal.thirdweb.com/templates"
+            href="https://nftearth.exchange"
             className={styles.card}
           >
-            <h2>Templates &rarr;</h2>
+            <h2>NFTEarth Metaverse &rarr;</h2>
             <p>
-              Discover and clone template projects showcasing thirdweb features.
+            Discover the blossoming ecosystem of NFTs on Layer2 at NFTEarth
             </p>
           </a>
         </div>
